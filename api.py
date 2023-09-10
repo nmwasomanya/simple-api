@@ -16,8 +16,8 @@ def main():
             'current_day' : datetime.today().strftime('%A'),
             'track' : track,
             'utc_time' : utc_time,
-            "github_file_url": '',
-            "github_repo_url": '',
+            "github_file_url": 'https://github.com/nmwasomanya/simple-api/api.py',
+            "github_repo_url": 'https://github.com/nmwasomanya/simple-api/',
             'status_code' : 200
             }
     return jsonify(info)
